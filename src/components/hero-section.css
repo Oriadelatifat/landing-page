@@ -1,0 +1,61 @@
+
+.hero{
+    background-color: #C4C4C4;
+    width: Fixed (1,920px);
+    height: Fixed (1,080px);
+    padding: 80px 150px 100px 150px;
+    gap: 0px;
+    border-radius: 0px 0px 62px 62px;
+    opacity: 0px;
+}
+.hero-content{
+    width: Hug (668px)px;
+    height: Hug (392.06px)px;
+    gap: 54px;
+    opacity: 0px;
+    
+}
+h1{
+    width: 668px;
+    height: 171px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 85.31px;
+    text-align: left;
+    color: #07484A;
+    box-shadow: 0px 4px 4px 0px #1F191900;
+}
+
+p{
+    width: 539px;
+    height: 33.06px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.68px;
+    text-align: left;
+    color: #07484A;
+
+}
+.hero-content button{
+    width: Fixed (230px);
+    height: Fixed (80px);
+    padding: 20px ;
+    gap: 4px;
+    border-radius: 10px;
+    opacity: 0px;
+    background: #70908B;
+    color: #FDFBF8;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+
+}

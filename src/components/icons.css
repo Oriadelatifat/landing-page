@@ -1,0 +1,51 @@
+.search2{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 26px;
+    left: 20px;
+    filter: invert(100);
+}
+.slider{
+    margin-left: -420px;
+    margin-top: 30px;
+    border: 0px solid #07484A;
+    position: relative;
+
+}
+.up-arrow-side{
+   transform:rotate(90deg);
+    width: Fixed (40px)px;
+    height: Fixed (40px)px;
+    padding: 100px 0px 0px 0px;
+    gap: 4px;
+    border-radius: 100px ;
+    opacity: 0px;
+    position: absolute;
+    bottom: -1020px;
+    right: 870px ;
+}
+.down-arrow-side{
+    transform:rotate(90deg);
+    width: Fixed (40px)px;
+    height: Fixed (40px)px;
+    padding: 100px 0px 0px 0px;
+    gap: 4px;
+    border-radius: 100px;
+    opacity: 0px;
+    position: absolute;
+    bottom: -1070px;
+    right: 870px ;
+}
+.line{
+    width: 1620px;
+    height: 0px;
+    gap: 0px;
+    border: 6px 0px 0px 0px;
+    opacity: 0px;
+}
+.downarrow{
+    position: absolute;
+    bottom: -3298px;
+    right: 450px;
+}

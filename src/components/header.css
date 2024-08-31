@@ -1,0 +1,66 @@
+
+.header-nav{
+    display: flex;
+    width: Fixed (1,920px);
+    height: Hug (88px);
+    padding: 26px, 150px, 26px, 150px;
+    justify-content: space-between;
+    opacity: 0px;
+}
+.logo{
+    width: 144px;
+    height: 36px;
+}
+
+
+.menu{
+    color:  #07484A;
+    width: Hug (606px);
+    height: Hug (27px);
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.58px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    gap: 2px;
+    opacity: 0px; 
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin: -15px 10px 10px 10px;
+}
+
+.header-icons{
+    width: Hug (196px);
+    height: Hug (27px);
+    gap: 58px;
+    opacity: 0px;
+   display: flex;
+   justify-content: space-between;
+    
+}
+.dropdown{
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .menu{
+        display: none;
+    }
+    .dropdown{
+        display: block;
+    }
+}
+
+@media (max-width:320px) {
+    .menu{
+        display: none;
+    }
+    .dropdown{
+        display: block;
+        order: -1;
+    }
+}

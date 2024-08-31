@@ -1,0 +1,24 @@
+.expendiency{
+    width: Fixed (1,920px)px;
+height: Hug (695px)px;
+top: 5578px;
+padding: 100px 150px 100px 150px;
+gap: 104px;
+opacity: 0px;
+background-color: #E0EFF6;
+
+
+}
+.expendiency-heading{
+    width: 836px;
+    height: 85px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 85.31px;
+    text-align: left;
+    background-color: #07484A;
+
+}

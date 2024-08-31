@@ -1,0 +1,85 @@
+.footer {
+    width: Fixed (1,920px);
+    height: Hug (464px);
+    top: 7990px;
+    padding: 100px 150px 32px 150px;
+    gap: 69px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5faf7;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    
+   }
+   .socials{
+    width: 137px;
+    height: 36px;
+   }
+   .footer .company-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   }
+   .footer .company-details .socials {
+    display: flex;
+    gap: 10px;
+   }
+   .socials-text{
+    position: absolute;
+    left: -5px;
+    top: 6610px;
+   }
+   .footer .company-details .socials img {
+    width: 200px;
+    height: 90px;
+    cursor: pointer;
+    margin-top: -20px;
+    position: absolute;
+    left: 35px;
+   }
+   
+   .footer h1 {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    color: #333;
+   }
+   .footer p {
+    margin: 5px 0;
+    line-height: 1.5;
+   }
+   .footer div {
+    flex: 1;
+   }
+   .footer .company-details p {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   }
+   .footer p {
+    font-size: 12px;
+    color: #777;
+   }
+
+@media (max-width:320px) {
+    .footer {
+        padding: 10px;
+      }
+      .company-details {
+        flex-direction: column;
+        text-align: left;
+      }
+      .footer-links {
+        flex-direction: column;
+        gap: 10px;
+      }
+      .footer-links div {
+        width: 100%;
+      }
+      .footer p {
+        font-size: 10px;
+      }
+     
+}
