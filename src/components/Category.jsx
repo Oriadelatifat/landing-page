@@ -32,7 +32,7 @@ function Category(){
                     </div>
                         <div className="all-category">
                             <button>All categories </button>
-                            <Icon icon="Arrow"/>
+                            <Icon icon="Arrow2"/>
                         </div>
                         
                        

@@ -11,7 +11,7 @@
     margin-top: 30px;
     border: 0px solid #07484A;
     position: relative;
-
+    height: 484px;
 }
 .up-arrow-side{
    transform:rotate(90deg);
@@ -39,13 +39,66 @@
 }
 .line{
     width: 1620px;
-    height: 0px;
-    gap: 0px;
-    border: 6px 0px 0px 0px;
-    opacity: 0px;
+    position: relative;
 }
 .downarrow{
     position: absolute;
-    bottom: -3298px;
+    right: 567px;
+    bottom: -2889px;
+}
+.up-arrow{
+    position: absolute;
     right: 450px;
+}
+.down-arrow{
+    position: absolute;
+    right: 400px;
+}
+.arrow{
+    position: absolute;
+    right:50px ;
+}
+.down-arrow-side2{
+    position: absolute;
+    right: -8px;
+    bottom: -3600px;
+    transform:rotate(90deg);
+}
+.up-arrow-side2{
+    position: absolute;
+    left: 1310px;
+     transform:rotate(90deg);
+    bottom: -3550px;
+}
+.vector{
+    background-color: #07484A;
+    width: 18px;
+    height: 18px;
+    padding: 16px 15px 16px 15px;
+    gap: 4px;
+    border-radius: 16px ;
+    opacity: 0px;
+    position: absolute;
+    left: 45%;
+    margin-top: -50px;
+}
+.slider2{
+    margin-top: 20px;
+}
+.up-arrow2{
+    position: absolute;
+    left: 280px;
+    top: 4625px;
+}
+.down-arrow2{
+    position: absolute;
+    left: 237px;
+    top: 4625px;
+}
+.slider3{
+    transform: rotate(180deg);
+    width: 10px;
+    height: 100px;
+    position: absolute;
+    top: 150px;
 }

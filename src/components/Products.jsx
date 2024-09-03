@@ -46,12 +46,14 @@ function Products (){
                  </div>
                 
            </div>
-                <Icon icon="line"/>
-                <div className="arrow">
-                    <Icon icon="up-arrow"/>
-                    <Icon icon="down-arrow"/>
+                <div className="line-adjust">
+                    <Icon icon="line"/>
+                    <div className="arrow">
+                        <Icon icon="up-arrow"/>
+                        <Icon icon="down-arrow"/>
+                    </div>    
                 </div>
-                
+
                 <button className="item"> 
                     <p>Explore all items </p>  
                     <Icon icon="Arrow"/>

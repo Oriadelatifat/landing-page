@@ -2,7 +2,6 @@
     width: Fixed (1,920px);
 height: Hug (700px);
 top: 7290px;
-padding: 100px 0px 0px 0px;
 gap: 0px;
 opacity: 0px;
 display: flex;
@@ -12,24 +11,26 @@ display: flex;
 .first-container{
 
     background-color:#D9D9D9;
-    width: 50%;
-    height: Fill (600px);
-    padding: 0px 150px 0px 150px;
+    width: Fixed(860px);
+    height: 300px;
+    padding: 25%;
     gap: 41px;
     opacity: 0px;
-
+    padding-bottom: 0px;
+    padding-top:150px;
 
 }
 .second-container{
     background-color: #E0F6F1;
-    width: 50%;
-    height: Fill (600px);
+    width: Hug(600px);
+    height: Fill (300px);
     padding: 0px 150px 0px 150px;
     gap: 41px;
     opacity: 0px;
     display: flex;
     flex-direction: column;
-
+    text-align:center ;
+    
 
 }
 .email-input{
@@ -37,6 +38,8 @@ display: flex;
     outline: none;
     border: none;
     color: #C4C4C4;
+    font-size: 24px;
+    padding-left: 30px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -51,27 +54,23 @@ opacity: 0px;
 font-size: 24px;
 font-weight: 400;
 line-height: 28.13px;
-   text-align: left; 
+   margin: auto;
 }
 .btn{
     background: #70908B;
-    width: Fixed (250px);
-height: Hug (68px);
-padding: 20px 24px 20px 24px;
-gap: 0px;
-border-radius: 6px;
-opacity: 0px;
-border: 0px;
-text-align: left;
-align-items: center;
+    border: none; 
+    width: 250px;   
+    height: 60px;
+    border-radius: 10px;
+
 
 }
 .news{
     font-family: Playfair Display;
-font-size: 64px;
-line-height: 85.31px;
-letter-spacing: 0.05em;
-text-align: left;
+    font-size: 44px;
+    line-height: 65.31px;
+    letter-spacing: 0.05em;
+    text-align: left;
 width: 675px;
 height: 170px;
 gap: 0px;
@@ -80,7 +79,7 @@ opacity: 0px;
 }
 .letter{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-size: 24px;
+font-size: 20px;
 font-weight: 400;
 line-height: 28.13px;
 text-align: left;
@@ -89,5 +88,5 @@ width: 553px;
 height: 28px;
 gap: 0px;
 opacity: 0px;
-
+margin-top: -100px;
 }

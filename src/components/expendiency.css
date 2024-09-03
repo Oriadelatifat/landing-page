@@ -1,24 +1,28 @@
 .expendiency{
-    width: Fixed (1,920px)px;
-height: Hug (695px)px;
+    width: Fixed (1,920px);
+height: Hug (695px);
 top: 5578px;
-padding: 100px 150px 100px 150px;
-gap: 104px;
 opacity: 0px;
+margin: auto;
+margin-top: 50px;
+display: flex;
+text-align: center;
 background-color: #E0EFF6;
+padding: 100px 150px 100px 150px;
+
+}
+
+.payment{
+    background-color: #EEEBFF;
+    border-radius: 20px;
 
 
 }
-.expendiency-heading{
-    width: 836px;
-    height: 85px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Playfair Display;
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 85.31px;
-    text-align: left;
-    background-color: #07484A;
-
+.group{
+    background-color: #FFF4E7;
+  border-radius: 20px;
+}
+.group23{
+    background-color: #CAF3E5;
+   border-radius: 20px;
 }

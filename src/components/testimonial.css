@@ -1,12 +1,14 @@
 .testimonial{
-    width: Fixed (1,920px)px;
-height: Hug (1,017px)px;
+    width: Fixed (1,920px);
+height: Hug (1,017px);
 top: 6273px;
-padding: 100px 150px 100px 150px;
+padding: 10px 150px 100px 150px;
 gap: 107px;
 opacity: 0px;
 display: flex;
 flex-direction: column;
+
+
 
 }
 .testimonial-heading{
@@ -14,30 +16,69 @@ flex-direction: column;
 height: Hug (172px)px;
 gap: 35px;
 opacity: 0px;
+margin: auto;
+padding-left: 40%;
 
+
+}
+.testimonial-heading p{
+    margin-top: -100px;
+    font-size: 28px;
+    margin-left: -20px;
 }
 .testimonial-block{
-    width: Fill (1,620px)px;
-height: Hug (410px)px;
+    width: Fill (1,620px);
+height: Hug (410px);
 gap: 0px;
-justify-content: space-between;
 opacity: 0px;
-
+display: flex;
+margin-top: -50px;
 }
 .text-image{
-    width: Fixed (421px)px;
-height: Fixed (410px)px;
-padding: 4px 0px 0px 0px;
+    width: Fixed (421px);
+height: Fixed (410px);
 gap: 4px;
-border-radius: 20px 0px 0px 0px;
+border-radius: 20px;
 opacity: 0px;
 background: #D9D9D9;
-
+position: relative;
+padding: 16%;
+margin: auto;
+}
+.quote{
+    margin-bottom: 250px;
+    position: absolute;
+    left: 90px;
+    bottom: -5310px;
 }
 .testimonial-content{
-    width: Hug (964px)px;
-height: Hug (301px)px;
+    width: Hug (964px);
+height: Hug (301px);
 gap: 65px;
 opacity: 0px;
+display: flex;
+flex-direction: column;
+margin: auto;
+}
+.testimonial p{
 
+}
+.testimonial .float{
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 50px;
+}
+.foot{
+    display: flex;
+    margin-top: -80px;
+}
+.foot p{
+    font-size: 14px
+    
+}
+.arrow-image{
+    margin-top: 90px;
+    transform: rotate(90deg);
+    padding-right: 50px;
+    margin-bottom: 80px;
 }

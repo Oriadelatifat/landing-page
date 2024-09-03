@@ -8,6 +8,7 @@ import "./App.css"
 import Footer from './components/Footer'
 import Testimonial from './components/Testimonial'
 import Expendiency from './components/Expendiency'
+import Contentblock from './components/Content-block'
 
 function App() {
   return(
@@ -16,6 +17,7 @@ function App() {
       <Category/>
       <Products/>
       <Package/>
+      <Contentblock/>
       <Expendiency/>
       <Testimonial/>
       <Newsletter/>

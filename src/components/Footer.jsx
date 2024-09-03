@@ -4,10 +4,11 @@ import InwoodLogo from "/Logo 1.svg"
 import "./footer.css"
 
 function Footer(){
-    return(
-        <div className="footer">
+return(
+    <div className="footer">
+        <div className="footer-details">
             <div className="company-details">
-                <img src={InwoodLogo} alt="" />
+                <img src={InwoodLogo} height={30} width={80} alt="" />
                 <div className="socials">
                     <img className="socials" src={Socials} alt="" />
                     <p className="socials-text"> Address<br /> +123 654 987 <br />+123 654 987 <br /> 14568, USA</p>
@@ -29,8 +30,10 @@ function Footer(){
                 <h1>Legal Stuff</h1>
                 <p>Shipping & Delivery <br />Terms & Conditions <br />Privacy & Policy</p>
             </div>
-            <p>Copyright ©2020 INWOOD. All Rights Reserved</p>
-        </div>
+           
+        </div> 
+        <p>Copyright ©2020 INWOOD. All Rights Reserved</p>   
+    </div>
     )
 }
 

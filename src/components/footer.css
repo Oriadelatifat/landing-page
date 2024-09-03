@@ -1,4 +1,4 @@
-.footer {
+.footer-details {
     width: Fixed (1,920px);
     height: Hug (464px);
     top: 7990px;
@@ -6,17 +6,19 @@
     gap: 69px;
     opacity: 0px;
     display: flex;
-    justify-content: space-between;
     background-color: #f5faf7;
     padding: 20px;
     font-family: Arial, sans-serif;
     font-size: 14px;
-    color: #333;
     
    }
-   .socials{
-    width: 137px;
-    height: 36px;
+   .footer-details{
+    width: Fill (1,620px);
+    height: Hug (238px);
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    margin-left: 0;
    }
    .footer .company-details {
     display: flex;
@@ -47,8 +49,11 @@
     color: #333;
    }
    .footer p {
-    margin: 5px 0;
+    margin: -5px 0px 200px 30px;
     line-height: 1.5;
+   }
+   .footer-data{
+    margin: -10px;
    }
    .footer div {
     flex: 1;
