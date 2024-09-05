@@ -53,6 +53,12 @@ li{
     .dropdown{
         display: block;
     }
+    .menu.show{
+        display: flex;
+    }
+    .menu li{
+        color: blue;
+    }
 }
 
 @media (max-width:320px) {
@@ -62,5 +68,22 @@ li{
     .dropdown{
         display: block;
         order: -1;
+    }
+    .header-nav{
+        width: Fixed (321px)px;
+        height: Hug (78px)px;
+        padding: 26px 16px 26px 0px;
+        justify-content: space-between;
+    }
+    .header-icons{
+        gap: 10px;
+       padding-inline: 10px;
+    }
+    .logo{
+        width: 104px;
+        height: 26px;
+        gap: 0px;
+        opacity: 0px;
+        padding-inline: 10px;
     }
 }
