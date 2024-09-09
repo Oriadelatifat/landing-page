@@ -19,14 +19,14 @@
     margin-top: -50px;
 }
 .main-block{
-    width: 1620px;
+    width: Hug(1620px);
     height: Hug(1039px);
     gap: 60px;
     display: flex;
     justify-content: space-between;
 }
 .side-menu{
-    width: 250px;
+    width: 349px;
     height: Hug(1018px);
     gap: 80px;
     display: flex;
@@ -65,9 +65,9 @@
     
 
 }
-.menu-text{
-    width: Fixed (164px)px;
-    height: Hug (694px)px;
+.side-menu .menu-text{
+    width: Fixed (164px);
+    height: Hug (694px);
     gap: 0px;
     opacity: 0px;
     
@@ -84,8 +84,8 @@
     padding-bottom: 50px;
 }
 .all-category{
-    width: Fixed (265px)px;
-    height: Hug (89px)px;
+    width: Fixed (65px);
+    height: Hug (89px);
     padding: 32px 20px 32px 20px;
     gap: 18px;
     border-radius: 10px;
@@ -95,8 +95,8 @@
     margin-top: -100px;
 }
 .all-category button{
-    width: 126px;
-    height: 25px;
+    width: Fixed(265px);
+    height: Hug(89px);
     gap: 0px;
     opacity: 0px;
     font-family: Open Sans;
@@ -107,10 +107,12 @@
     color: #F0F0F0;
     background: #70908B;
     border: none;
+    padding: 32px 20px 32px 20px;
+    gap: 18px;
 }
 
 .grid-container{
-    width: 1150px;
+    width: Hug(1211px);
     height: Hug (1,039px);
     gap: 26px;
     opacity: 0px;
@@ -124,7 +126,7 @@
 .grid-item{
     background-color:  #D9D9D9;
     opacity: 0px;
-    width: 530px;
+    width: 585.5px;
     height: 321px;
     gap: 0px;
     border-radius: 10px;
@@ -173,7 +175,7 @@ color:#FDFBF8;
 ;
 
 }
-.grid-container button{
+button{
     background: #E0EFF6;
     color: #07484A;
     border: none;
@@ -185,6 +187,12 @@ color:#FDFBF8;
     opacity: 0px;
 
 }
+.grid-container-alternative{
+    display: none;
+}
+.hamburger{
+    display: none;
+}
 @media (max-width:1024px) {
     .main-block{
         display: flex;
@@ -193,11 +201,222 @@ color:#FDFBF8;
    .slider-option{
     display: none;
    }
-   .menu-text{ 
+   
+   .grid-container{display: none;}
+   .grid-container-alternative{
+    display: block;
+    margin-right: 50px;
+   }
+   .main-block{
+    display: flex;
+   }
+   .side-menu{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+   }
+   .menu-text {
     display: grid;
     grid-template-columns: repeat(4,2fr);
-    font-size: 16px;
+    grid-template-rows: repeat(2, 4fr);
+    width: Hug (791px);
+    height: Hug (136px);
+    gap: 0px;
+    opacity: 0px;
+   }
+   .menu-text p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    margin-bottom: -50px;
+    margin-right: -340px;
+   }
+   .all-category{
+    margin-top: 5px;
+    width: Fixed (265px)px;
+    height: Hug (89px)px;
+    padding: 12px 50px 12px 50px;
+    gap: 18px;
+    border-radius: 10px;
+    opacity: 0px;
+    
    }
   
+   .grid-item{
+    width: Fill (432px);
+    height: Fill (250px);
+    padding: 36px 0px 36px 0px;
+    gap: 24px;
+    border-radius: 10px;
+    opacity: 0px;
+    
+}
+.grid-container{
+    display:none;
+}
+.grid-container-alternative{
+    display: grid;
+    grid-template-columns: repeat(2,4fr);
+    margin-left: -150px;
+    width: 944px;
+    height: 883px;
+    gap: 10px;
+    opacity: 0px;
+    margin-left: -110px;
+
+}
+.grid-item .header1{
+    font-size: 40px;
+    line-height: 62px;
+    font-weight: 400;
+    margin-top: 100px;
+}
+#bedroom{
+    text-align: center;
+}
+.grid-container-alternative .grid-item{
+    width: 462px;
+    height: 277px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+}
+.grid-container-alternative button{
+    margin-left: 10px;
+}
+.search-bar{
+    width: 463px;
+height:  81px;
+padding: 0px 20px 0px 20px;
+gap: 18px;
+border-radius: 10px;
+opacity: 0px;
+
+}
+.search-bar Input{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right:150px;
+}
   
+}
+@media (max-width:768px) {
+    .category{
+        width: 768px;
+        height: 1,660px;
+        top: 661px;
+        padding: 100px 20px 100px 20px;
+        gap: 99px;
+        opacity: 0px;
+
+    }
+    .grid-container-alternative{
+        width: 728px;
+        height: 883px;
+        gap: 26px;
+        opacity: 0px;
+        margin: auto;
+    }
+    .grid-container-alternative .grid-item{
+        width: 354px;
+        height:237px;
+        gap: 0px;
+        border-radius: 10px;
+        opacity: 0px;
+    }
+    .all-category{
+        margin-top: -55px;
+    }
+}
+@media (max-width:320px) {
+    .category{ 
+        width: 320px;
+        height: 1,721px;
+        gap: 60px;
+        opacity: 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       
+    }
+        .headline p{
+            font-size: 28px;
+            line-height: 42px;
+            margin-top: -50px;
+            margin-left: 30px;
+            font-weight: 700;
+        }
+        .menu-text{
+            display: none;
+        }
+        .hamburger{
+            display: block;
+            margin-right: 30px;
+            margin-top: 5px;
+            
+        }
+        .with-hamburger{
+            display: flex;
+            justify-content: space-between;
+            margin-top: -110px;
+        }
+        .all-category{
+            display: none;
+        }
+        .search-bar{
+            width: 216px;
+            height: 55px;
+            gap: 18px;
+            border-radius: 10px;
+            opacity: 0px;
+            text-align: center;
+            margin-right: 25px;
+        
+        }
+        .search-bar-input{
+            margin-left: 20px;
+            margin-bottom: -10px;
+            font-size: 20px;
+            line-height: 13px;
+            width: 106px;
+            height: 33px;
+            gap: 0px;
+            opacity: 0px;
+            text-align: center;
+        }
+    
+        .grid-container{
+            display: none;
+        }
+        .grid-container-alternative{
+            display: block;
+            display: flex;
+            flex-direction: column;
+            width: 288px;
+            height:1,368px;
+            gap: 10px;
+            opacity: 0px;
+            margin-left: 5px;
+            margin-top: -100px;
+            
+        }
+         .grid-container-alternative .grid-item{
+            width: 320px;
+            height: 187px;
+            gap: 0px;
+            border-radius: 10px;
+            opacity: 0px;
+
+            
+            
+        }
+        .grid-container-alternative .header1{
+            font-size: 36px;
+            line-height: 52px;
+            text-align: center;
+            margin-top: 70px
+        }
+       
+       
 }

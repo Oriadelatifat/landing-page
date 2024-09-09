@@ -15,15 +15,15 @@
 }
 .up-arrow-side{
    transform:rotate(90deg);
-    width: Fixed (40px)px;
-    height: Fixed (40px)px;
+    width: Fixed (40px);
+    height: Fixed (40px);
     padding: 100px 0px 0px 0px;
     gap: 4px;
     border-radius: 100px ;
     opacity: 0px;
     position: absolute;
-    bottom: -1020px;
-    right: 870px ;
+    bottom: -700px;
+    right: 1450px ;
 }
 .down-arrow-side{
     transform:rotate(90deg);
@@ -34,8 +34,8 @@
     border-radius: 100px;
     opacity: 0px;
     position: absolute;
-    bottom: -1070px;
-    right: 870px ;
+    bottom: -650px;
+    right: 1450px ;
 }
 .line{
     width: 1620px;
@@ -43,16 +43,16 @@
 }
 .downarrow{
     position: absolute;
-    right: 567px;
-    bottom: -2889px;
+    right: 710px;
+    bottom: -2662px;
 }
 .up-arrow{
     position: absolute;
-    right: 450px;
+    right: 120px;
 }
 .down-arrow{
     position: absolute;
-    right: 400px;
+    right: 70px;
 }
 .arrow{
     position: absolute;
@@ -60,15 +60,15 @@
 }
 .down-arrow-side2{
     position: absolute;
-    right: -8px;
-    bottom: -3600px;
+    right: 135px;
+    bottom: -3050px;
     transform:rotate(90deg);
 }
 .up-arrow-side2{
     position: absolute;
-    left: 1310px;
+    right: 135px;
      transform:rotate(90deg);
-    bottom: -3550px;
+    bottom: -3100px;
 }
 .vector{
     background-color: #07484A;
@@ -79,21 +79,32 @@
     border-radius: 16px ;
     opacity: 0px;
     position: absolute;
-    left: 45%;
+    left: 49.5%;
     margin-top: -50px;
+}
+.vector2{
+    margin-left: 5px;
+    width: 39.12px;
+    height: 39.12px;
+    top: 70px;
+    gap: 0px;
+    opacity: 0px;
+    left: 85.5px;
+
 }
 .slider2{
     margin-top: 20px;
+    margin-left: -30px;
 }
 .up-arrow2{
     position: absolute;
     left: 280px;
-    top: 4625px;
+    top: 5080px;
 }
 .down-arrow2{
     position: absolute;
     left: 237px;
-    top: 4625px;
+    top: 5080px;
 }
 .slider3{
     transform: rotate(180deg);
@@ -101,4 +112,5 @@
     height: 100px;
     position: absolute;
     top: 150px;
+    border: 1px solid #FDFBF8
 }

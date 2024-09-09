@@ -1,28 +1,131 @@
 .expendiency{
-    width: Fixed (1,920px);
-height: Hug (695px);
-top: 5578px;
+    width: 1,348px;
+height: 306px;
+gap: 232px;
 opacity: 0px;
-margin: auto;
-margin-top: 50px;
 display: flex;
+flex-direction: row;
 text-align: center;
-background-color: #E0EFF6;
+margin-top: 150px;
+
+
+}
+.expendience{
+    background-color: #E0EFF6;
+    width: 1,920px;
+height: 695px;
+top: 5578px;
 padding: 100px 150px 100px 150px;
+gap: 104px;
+opacity: 0px;
 
 }
 
 .payment{
     background-color: #EEEBFF;
     border-radius: 20px;
-
+   margin-left: 20px;
+    
 
 }
 .group{
     background-color: #FFF4E7;
   border-radius: 20px;
+  margin-left: 20px;
+    
 }
 .group23{
     background-color: #CAF3E5;
    border-radius: 20px;
+   margin-left: 20px;
+    
+}
+.benefits{
+    font-family: Playfair Display;
+font-size: 64px;
+font-weight: 700;
+line-height: 85.31px;
+text-align: center;
+margin-top: 30px;
+
+}
+@media (max-width:1024px) {
+    .expendience{
+        width: 1,024px;
+height: 640px;
+top: 5420px;
+padding: 100px 40px 100px 40px;
+gap: 104px;
+opacity: 0px;
+margin-top: -300px;
+background-color: #E0EFF6;
+    }
+.benefits{
+    font-family: Playfair Display;
+font-size: 48px;
+font-weight: 700;
+line-height: 62px;
+text-align: center;
+
+}
+.expendiency{
+    width: 944px;
+height: 274px;
+gap: 0px;
+justify-content: space-between;
+opacity: 0px;
+}
+.payment{
+margin-right: 100px;
+}
+.group{
+margin-right: 100px;
+}
+.group23{
+    margin-right: 100px;
+}
+}
+@media (max-width:320px) {
+    .expendience{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 1,260px;
+        top: 4838px;
+        padding: 80px 16px 180px 16px;
+        gap: 104px;
+        opacity: 0px;
+
+    }
+    .expendiency{
+        flex-direction: column;
+        margin-top: -200px;
+        text-align: center;
+    }
+    .benefits{
+font-size: 28px;
+font-weight: 700;
+line-height: 42px;
+text-align: center;
+width: 288px;
+height: 84px;
+gap: 0px;
+opacity: 0px;
+padding: 50px 10px 150px 30px;
+    }
+    .payment{
+        position: absolute;
+        left: 150px;
+       bottom: -4900px;
+    }
+    .group{
+        position: absolute;
+        left: 150px;
+        bottom: -5130px;
+    }
+    .group23{
+        position: absolute;
+        left: 150px;
+        bottom: -5320px;
+    }
 }

@@ -1,90 +1,147 @@
-.footer-details {
-    width: Fixed (1,920px);
-    height: Hug (464px);
-    top: 7990px;
-    padding: 100px 150px 32px 150px;
+.footer{
+  width:1,920px;
+  height: 464px;
+  top: 7990px;
+  padding: 100px 150px 32px 150px;
+  gap: 69px;
+  opacity: 0px;
+}
+.footer-details{
+  width: 1,620px;
+  height: 238px;
+  gap: 0px;
+  opacity: 0px;
+display: flex;
+flex-direction: row
+
+}
+.socials{
+  margin: 15px 10px 10px 5px;
+}
+.socials-text{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.51px;
+text-align: left;
+}
+.footer-data h1{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 24.51px;
+text-align: left;
+
+}
+.footer-grid{
+  display: flex;
+  
+}
+
+.footer-data h1{
+  margin-bottom: -120px;
+}
+.footer-data{
+  margin-left: -100px;
+}
+#data1, #data2, #data3{
+  margin-left: -300px;
+}
+.footer-data p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.51px;
+  text-align: left;
+
+}
+@media (max-width:1024px) {
+  
+.footer{
+    width: 1,024px;
+    height: 464px;
+    top: 7735px;
+    padding: 100px 40px 32px 40px;
     gap: 69px;
     opacity: 0px;
-    display: flex;
-    background-color: #f5faf7;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    
-   }
-   .footer-details{
-    width: Fill (1,620px);
-    height: Hug (238px);
-    gap: 0px;
-    opacity: 0px;
-    display: flex;
-    margin-left: 0;
-   }
-   .footer .company-details {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-   }
-   .footer .company-details .socials {
-    display: flex;
-    gap: 10px;
-   }
-   .socials-text{
-    position: absolute;
-    left: -5px;
-    top: 6610px;
-   }
-   .footer .company-details .socials img {
-    width: 200px;
-    height: 90px;
-    cursor: pointer;
-    margin-top: -20px;
-    position: absolute;
-    left: 35px;
-   }
-   
-   .footer h1 {
-    font-size: 16px;
-    margin: 0 0 10px 0;
-    color: #333;
-   }
-   .footer p {
-    margin: -5px 0px 200px 30px;
-    line-height: 1.5;
-   }
-   .footer-data{
-    margin: -10px;
-   }
-   .footer div {
-    flex: 1;
-   }
-   .footer .company-details p {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-   }
-   .footer p {
-    font-size: 12px;
-    color: #777;
-   }
 
+  }
+  
+  .footer-grid{
+    display: flex;
+    margin-top: -340px;
+  }
+  .footer-data{
+    margin-left: 120px;
+    margin-bottom: -200px;
+  }
+  #data3{
+    margin-left: 300px;
+    margin-top:65px;
+  }
+  #data2{
+    margin-left: -350px;
+  margin-top: 65px;
+  }
+  #data1{
+    margin-top: 150px;
+    margin-left: -500px;
+  }
+}
+  
 @media (max-width:320px) {
-    .footer {
-        padding: 10px;
-      }
-      .company-details {
-        flex-direction: column;
-        text-align: left;
-      }
-      .footer-links {
-        flex-direction: column;
-        gap: 10px;
-      }
-      .footer-links div {
-        width: 100%;
-      }
-      .footer p {
-        font-size: 10px;
-      }
-     
+  .footer{
+    width: 320px;
+    height: 961px;
+    top: 7944px;
+    padding: 80px 16px 32px 16px;
+    gap: 69px;
+    opacity: 0px;
+margin-top: -130px;
+
+  }
+
+.footer-details{
+  display: flex;
+  flex-direction: column;
+}
+.footer-grid{
+  margin-top: 100px;
+}
+.footer-p{
+  margin-top: 500px;
+  width: 288px;
+height: 36px;
+gap: 0px;
+opacity: 0px;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+text-align: center;
+
+}
+.footer-data{
+  margin-left: -5px;
+}
+#data1{
+  margin-left: -480px;
+  margin-top: -3px;
+}
+#data3{
+  margin-top:200px ;
+  margin-left: -850px;
+}
+#data2{
+  margin-top: 200px;
+  margin-left: -520px;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+width: 128px;
+height: 92px;
+gap: 0px;
+opacity: 0px;
+
+}
 }

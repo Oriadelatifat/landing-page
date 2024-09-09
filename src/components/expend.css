@@ -7,10 +7,34 @@
     text-align: center;
 
 }
+.expend h2{
+    text-align: center;
+}
 .text2{
     margin-top:-30px;
 }
 .expend{
    margin-left: -150px;
     padding: 0px;
+}
+@media (max-width:1024px) {
+    .expend h2{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        margin-right: 80px;
+    }
+    .expend p{
+      margin-right: -10px;
+    }
+}
+@media (max-width:320px) {
+    .expend {
+        margin-left:-100px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .expend h2{
+        margin-right: 500px;
+    }
 }

@@ -5,7 +5,6 @@ import Icon from "./Icons"
 function Contentblock(){
     return(
         <div className="container">
-            
                 <div className= "div" id="div1">
                     <h2>Our <br />Own Creation</h2>
                     <p>Designed in our studio</p>

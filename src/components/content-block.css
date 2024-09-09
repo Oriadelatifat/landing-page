@@ -1,7 +1,14 @@
 .container{
     display: flex;
     justify-content: space-between;
-    width: Fixed(1920px);
+    width: 1920px;
+    height: 737px;
+    top: 4841px;
+    left: -2px;
+    padding: 100px 0px 100px 0px;
+    gap: 32px;
+    opacity: 0px;
+
 }
 
 .div{
@@ -21,7 +28,8 @@
     transform: rotate(90deg);
 }
 #div1{
-    background-color: #052122;
+    background-color: #70908B;
+
     width: 300px;
     padding: 40px 20px 40px 40px;
     height: 300px;
@@ -53,4 +61,47 @@
 .down p{
     font-weight: 400;
     font-size: 18px;
+}
+@media (max-width:1024px) {
+    .container{
+        width:2,149px;
+        height: 737px;
+        top: 4683px;
+        padding: 100px 0px 100px 0px;
+        gap: 32px;
+        opacity: 0px;
+        margin-top: -500px;
+    }
+   
+}
+@media (max-width:320px) {
+    .container{
+        margin-top: -800px;
+    }
+    #div1{
+        width:195px;
+height: 311px;
+padding: 30px 16px 30px 16px;
+gap: 32px;
+border-radius: 0px 16px 16px 0px;
+opacity: 0px;
+margin-left: 0px;
+    }
+    #div1 h2{
+font-size: 28px;
+font-weight: 700;
+line-height: 42px;
+text-align: left;
+
+    }
+    #div2{
+        width: 288px;
+height: 343px;
+padding: 40px 0px 40px 0px;
+gap: 0px;
+border-radius: 10px ;
+opacity: 0px;
+margin-right:auto;
+    }
+    
 }

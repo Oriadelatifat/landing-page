@@ -24,21 +24,21 @@ function Products (){
                     </div>
                     <div className="image" id="image2"><img src={image3} alt="" />
                     <div className="detail">
-                            <h1 className="details">Arms chair</h1>
+                            <h1 className="details">Premium Sofa</h1>
                             <p className="details">light single chair</p>
                             <span className="details" >$145</span>
                         </div>
                     </div>
                     <div className="image" id="image3"><img src={image4} alt="" />
                         <div className="detail">
-                            <h1 className="details">Arms chair</h1>
+                            <h1 className="details">Minimal Sofa</h1>
                             <p className="details">light single chair</p>
                             <span className="details">$145</span>
                         </div>
                     </div>
                     <div className="image" id="image4"><img src={image5} alt="" />
                         <div className="detail">
-                            <h1 className="details">Arm chair</h1>
+                            <h1 className="details">Dining Chair</h1>
                             <p className="details">light single chair</p>
                             <span className="details">$145</span>
                         </div>

@@ -1,14 +1,16 @@
 .products{
-    width: 1,920px;
-    height:900px;
+    width: Fixed (1,919px);
+    height: Hug (1,173px);
     top: 2503px;
-    padding: 100px 0px 100px 0px;
+    padding: 100px 0px -50px 0px;
     gap: 54px;
     opacity: 0px;
+
 }
 .products h1{
     font-family: Playfair Display;
     margin: auto;
+    text-align: center;
 }
 .image-container{
 display: flex;
@@ -30,14 +32,15 @@ position: relative;
     justify-content: center;
 }
 .image{
-    width: 250px;
-    height: 410px;
+    margin-left: 75px;
+    text-align: center;
+    width: Fill (430.75px);
+    height: Fill (585px);
     padding: 60px 40px 60px 40px;
     gap: 40px;
-    border-radius: 16px ;
+    border-radius: 16px;
     opacity: 0px;
-    margin-left: 25px;
-    text-align: center;
+
 }
 #image1{
     background: #CAF3E5;
@@ -98,20 +101,119 @@ position: relative;
         display: flex;
         align-items: center;
         position: absolute;
-        bottom: -2400px;
-        left: 40%;
+        bottom: -2000px;
+        left: 38%;
     }
     .line-adjust{
         position: absolute;
-        bottom: -2200px;
+        bottom: -1850px;
     }
     .item p{
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 18px;
-        font-weight: 700;
+        font-weight: 400;
         line-height: 24.51px;
         color: #FFFFFF;
-        position: absolute;
-        left: 30px;
+        
+        
     }
+    @media (max-width:1024px) {
+        .products{
+            width: 1,024px;
+            height: 1,251px;
+            top: 2321px;
+            gap: 100px;
+            opacity: 0px;
+            margin-top: 150px;
+        }
+       .products h1{
+        text-align: center;
+       }
+       .image-container{
+        width:2,111px;
+        height: 585px;
+        gap: 32px;
+        opacity: 0px;
+       }
+    .image{
+        width: 350px;
+        height: 500px;
+    }
+.detail h1{
+    text-align: left;
     
+}
+.line-adjust{
+  margin-bottom: -850px;
+}
+.item{
+    margin-bottom: -800px;
+    text-align: center;
+}
+    }
+    @media (max-width:768px) {
+       .products{ 
+            width: 768px;
+            height: 1,251px;
+            padding: 100px 40px 100px 0px;
+            gap: 100px;
+            opacity: 0px;
+            margin-top: 50px;
+       }
+       .item{
+        margin-bottom: -520px;
+       }
+        
+    }
+    @media (max-width:320px) {
+        .products{
+            width: 325px;
+            height: 795px;
+            top: 2459px;
+            padding: 80px 16px 80px 16px;
+            gap: 60px;
+            opacity: 0px;
+            margin-top: 500px;
+
+        }
+        .products h1{
+            font-family: Playfair Display;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 42px;
+        
+        }
+        .image{
+            width: 230px;
+            height: 400px;
+            padding: 20px;
+            gap: 40px;
+            border-radius: 16px;
+            opacity: 0px;
+            margin-top: -20px;
+        }
+        
+        .background-image img {
+            width: 365px;
+            height: 600px;
+            gap: 0px;
+            opacity: 0px;
+            margin-top: 100px;
+            margin-left: -15px;
+        }
+        .item{
+            margin-bottom: -900px;
+            text-align: center;
+            margin-left: -70px;
+        }
+        .products h1{
+            margin-left:-180px;
+        }
+        .line-adjust{
+            bottom: -1900px;
+        }
+        .detail h1{
+            margin-left: 5px;
+        }
+       
+    }

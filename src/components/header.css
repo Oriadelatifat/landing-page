@@ -53,12 +53,10 @@ li{
     .dropdown{
         display: block;
     }
-    .menu.show{
-        display: flex;
-    }
-    .menu li{
-        color: blue;
-    }
+    
+}
+@media (max-width:768px) {
+    
 }
 
 @media (max-width:320px) {

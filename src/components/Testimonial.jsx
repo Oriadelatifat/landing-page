@@ -26,12 +26,12 @@ function Testimonial(){
                 </div>
                 <div className="arrow-image">
                     <img src={uparrow}alt="" /> 
-                    <img src={downarrow} alt="" />
+                    <img id="downarrow" src={downarrow} alt="" />
                 </div>
                 
             </div> 
             <div className="foot">
-                <img src={line} width={800} alt="" />
+                <img className="adjust" src={line} width={1500} alt="" />
                 <p>See all review</p>
                 <Icon icon="Arrow2"/> 
                 

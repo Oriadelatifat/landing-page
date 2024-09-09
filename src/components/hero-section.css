@@ -3,7 +3,7 @@
     background-color: #C4C4C4;
     width: Fixed (1,920px);
     height: Fixed (1,080px);
-    padding: 80px 150px 100px 150px;
+    padding: 80px 150px 250px 150px;
     gap: 0px;
     border-radius: 0px 0px 62px 62px;
     opacity: 0px;
@@ -63,39 +63,79 @@ p{
 }
 @media (max-width:1024px) {
     .hero{
-        background-color: yellow;
         width: Fixed (1,024px);
         height: Fixed (661px);
         padding: 80px 40px 80px 40px;
         border-radius: 0px 0px 50px 50px;
 
     }
+    .hero-content{
+        margin-top: 100px;
+    }
+    .hero-content h1{
+        font-family: Playfair Display;
+font-size: 48px;
+font-weight: 700;
+line-height: 62px;
+text-align: left;
+margin-bottom: -60px;
+
+    }
+    .hero-content p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.68px;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+    .hero-content button{
+        width: 230px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
     
 }
 @media (max-width:768px) {
     .hero{
-    background-color: blue;
     width: Fixed (768px);
     height: Fixed (661px);
-    padding: 80px 20px 80px 20px;}
+    padding: 80px 20px 80px 20px;
+}
+    .hero-content h1{
+        font-size: 48px;
+        line-height: 52px;
+        margin-bottom: -60px;
+    }
+    .hero-section .header{
+        margin-bottom: 120px;
+    }
+    .hero-content p{
+        font-size: 24px;
+        line-height: 32.68px;
+        margin-bottom: 60px;
+    }
+    .hero-content button{
+        margin-bottom: 80px;
+        width: 230px;
+        text-align: center;
+    }
 }
 @media (max-width:320px) {
-    .hero,.hero-section{
-        width: Fixed (320px);
-        height: Fixed (738px);
-        padding: 100px 16px 100px 16px;
+    .hero{
+        width: 320px;
+        height: 738px;
+        padding: 100px 16px 10px 16px;
         gap: 0px;
         border-radius: 0px 0px 50px 50px;
         opacity: 0px;
-        background-color: red;
-        
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
     .hero-content{
-        width: Fill (288px);
-        height: Hug (218px);
+        width: 288px;
+        height: 218px;
         gap: 52px;
         opacity: 0px;
         text-align: center;
@@ -110,7 +150,8 @@ p{
         font-weight: 700;
         text-align: center;
         margin: auto;
-        margin-left: -210px;
+        margin-left: -170px;
+        
 
     }
     .hero-content p{
@@ -125,15 +166,16 @@ p{
         flex-direction: column;
         text-align: center;
         margin-top: 5px;
-        margin-left: -145px;
+        margin-left: -100px;
     }
     .hero-section .header{
         position: absolute;
-        top: 10px;
+        top: 30px;
     }
     .hero-content button{
-        margin-top: 20px;
+        margin-top: 50px;
         padding: 16px 40px 16px 40px;
+        
 
     }
 
